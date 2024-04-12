@@ -7,11 +7,6 @@ nav_order: 2
 ---
 
 <!-- _pages/publications.md -->
-
-<div class="pre-publications">
-
-{% bibliography %}
-
 <div class="publications">
 
 {% bibliography %}
