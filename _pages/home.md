@@ -2,7 +2,7 @@
 layout: home
 title: home
 permalink: /
-subtitle: href='https://liphy.univ-grenoble-alpes.fr/en'>Laboratoire Interdisciplinaire de Physique (LIPhy)
+subtitle: Wave Physics and Information in Complex Systems
 
 profile:
   align: right
