@@ -9,7 +9,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-About me
+## About me
 
 I did my PhD at ESPCI Paris, during which I studied light-matter interaction at the nanoscale. I then worked on waves in complex media as a post-doc at ESPCI Paris, Utrecht University (the Netherlands) and Université Grenoble Alpes. I am now pursuing these activities as a CNRS researcher in an interdisciplinary laboratory of physics (LIPhy) in Grenoble, working with optical and acoustic waves. I have always enjoyed tackling challenges in physics as an experimentalist but also through numerical and theoretical approaches.
 
