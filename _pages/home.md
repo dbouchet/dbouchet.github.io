@@ -2,7 +2,7 @@
 layout: home
 title: home
 permalink: /
-subtitle: <a href='https://liphy.univ-grenoble-alpes.fr/en'>Laboratoire Interdisciplinaire de Physique (LIPhy)</a>
+subtitle: href='https://liphy.univ-grenoble-alpes.fr/en'>Laboratoire Interdisciplinaire de Physique (LIPhy)
 
 profile:
   align: right
