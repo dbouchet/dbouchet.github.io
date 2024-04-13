@@ -2,7 +2,7 @@
 layout: home
 title: home
 permalink: /
-subtitle: Wave Physics and Information in Complex Systems
+subtitle: Wave Physics & Information in Complex Systems
 
 profile:
   align: right
