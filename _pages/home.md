@@ -1,6 +1,6 @@
 ---
 layout: home
-title: home
+title: Home
 permalink: /
 subtitle: Wave Physics & Information in Complex Systems
 
