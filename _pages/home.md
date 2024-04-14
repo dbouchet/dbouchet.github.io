@@ -11,11 +11,15 @@ social: true # includes social icons at the bottom of the page
 
 <br>
 
+<hr />
+
 <p align="center"> 
 <b>
-We are hirering! Have a look at our job openings
+We are hiring! Have a look at our job openings
 </b>
 </p>
+
+<hr />
 
 <br>
 
@@ -35,8 +39,10 @@ In the last decades, the possibility to shape incident waves in space and time h
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/movie_speckle.gif" title="movie waves" class="img-fluid rounded z-depth-1" %}
-        <p>
+        <p align="justify">
+        <small>
         <i>Waves propagating through a random scattering medium produce highly-complex interference patterns.</i>
+        </small>
         </p>
     </div>
 
