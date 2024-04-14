@@ -15,7 +15,7 @@ social: true # includes social icons at the bottom of the page
 
 <p align="center"> 
 <b>
-We are hiring! Have a look at our job openings
+We are hiring! Have a look at our <a href="/openings/">job openings</a>
 </b>
 </p>
 
