@@ -9,18 +9,14 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-<style>
-  .bottom-three {
-     margin-bottom: 3cm;
-  }
-</style>
+<br>
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-7 mt-3 mt-md-0">
 
 <h2>The challenge</h2>
 
-<p class="bottom-three"> 
+<p> 
 Waves propagating inside disordered media leads to seemingly intractable complex interference patterns. This effect prevents conventional imaging techniques, such as optical microscopy or ultrasound imaging, to be employed in complex media. As such, this constitutes a critical challenge for biological imaging. This challenge motivates us to get a better fundamental understanding of how waves propagate in complex media.
 </p>
 
@@ -31,22 +27,26 @@ Waves propagating inside disordered media leads to seemingly intractable complex
 
 </div>
 
+<br>
+
 <h2>The approach</h2>
 
-<p class="bottom-three"> 
+<p> 
 In the last decades, the possibility to shape incident waves in space and time has been widely used to control and maximize the energy of waves within complex scattering media. In our group, we now want to control and maximize the amount of information in the measured scattered waves. For this purpose, we associate conceptuals tools from wave theory and information theory, and we conduct experimental proofs of concept using state-of-the-art wavefront shaping devices (digital micromirror devices in optics, transducers array in acoustics).
 </p>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-7 mt-3 mt-md-0">
+<br>
 
 <h2>About me</h2>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-7 mt-3 mt-md-0">
 
 <p> 
 I did my PhD at <a href="https://www.institut-langevin.espci.fr">Institut Langevin</a> (<a href="https://www.espci.psl.eu/">ESPCI Paris</a>), during which I studied light-matter interaction at the nanoscale. I then worked on waves in complex media as a post-doc at <a href="https://www.uu.nl/en">Utrecht University</a> (the Netherlands) and <a href="https://liphy.univ-grenoble-alpes.fr/">LIPhy</a> (<a href="https://www.univ-grenoble-alpes.fr/">Université Grenoble Alpes</a>). I am now pursuing these activities in Grenoble at LIPhy as a researcher employed by the <a href="https://www.cnrs.fr">CNRS</a>. In this lab, which is an interdisciplinary laboratory of physics, I'm working on the propagation of both light waves and acoustic waves in complex media. I have always enjoyed tackling challenges in physics as an experimentalist but also through numerical and theoretical approaches.
 </p>
 
-<p class="bottom-three"> 
+<p> 
 Besides physics, I like to spend time in the mountains around Grenoble, especially for rock climbing.
 </p>
 
@@ -56,3 +56,5 @@ Besides physics, I like to spend time in the mountains around Grenoble, especial
     </div>
 
 </div>
+
+<br>
