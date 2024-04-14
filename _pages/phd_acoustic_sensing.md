@@ -1,4 +1,4 @@
-<h2> PhD proposal </h2>
+<h3> PhD proposal </h3>
 
 <p> 
 <b> Optimal acoustic sensing in complex scattering media </b>
