@@ -23,7 +23,7 @@ We are hiring! Have a look at our <a href="/openings/">job openings</a>
 
 <br>
 
-<h2>The challenge</h2>
+<h3>The challenge</h3>
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
@@ -50,7 +50,7 @@ In the last decades, the possibility to shape incident waves in space and time h
 
 <br>
 
-<h2>About me</h2>
+<h3>About me</h3>
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-7 mt-3 mt-md-0">
