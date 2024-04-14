@@ -26,7 +26,7 @@ We are hiring! Have a look at our <a href="/openings/">job openings</a>
 <h3>The challenge</h3>
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-6.5 mt-3 mt-md-0">
+    <div class="col-sm-7 mt-3 mt-md-0">
 
 <p align="justify"> 
 Waves propagating inside disordered media leads to seemingly intractable complex interference patterns. This effect prevents conventional imaging techniques, such as optical microscopy or ultrasound imaging, to be employed in complex media. As such, this constitutes a critical challenge for biological imaging. This challenge motivates us to get a better fundamental understanding of how waves propagate in complex media.
@@ -37,7 +37,7 @@ In the last decades, the possibility to shape incident waves in space and time h
 </p>
 
     </div>
-    <div class="col-sm-5.5 mt-3 mt-md-0">
+    <div class="col-sm-5 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/movie_speckle.gif" title="movie waves" class="img-fluid rounded z-depth-1" %}
         <p align="center">
         <small>
