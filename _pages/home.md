@@ -12,7 +12,7 @@ social: true # includes social icons at the bottom of the page
 <br>
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-7 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
 
 <h2>The challenge</h2>
 
@@ -21,7 +21,7 @@ Waves propagating inside disordered media leads to seemingly intractable complex
 </p>
 
     </div>
-    <div class="col-sm-5 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/movie_speckle.gif" title="movie waves" class="img-fluid rounded z-depth-1" %}
     </div>
 
