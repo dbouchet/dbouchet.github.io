@@ -33,7 +33,7 @@ Waves propagating inside disordered media leads to seemingly intractable complex
 </p>
 
 <p align="justify"> 
-In the last decades, the possibility to shape incident waves in space and time has been widely used to control and maximize the energy of waves within complex scattering media. In our group, we now want to control and maximize the amount of information in the measured scattered waves. For this purpose, we associate conceptuals tools from wave theory and information theory, and we conduct experimental proofs of concept using state-of-the-art wavefront shaping devices.
+In the last decades, the possibility to shape incident waves in space and time has been widely used to control and maximize the energy of waves within complex scattering media. In our group, we now want to control and maximize the amount of information in the measured scattered waves. For this purpose, we associate conceptuals tools from wave theory and information theory, and we conduct experimental proofs of concept in optics and acoustics using state-of-the-art wavefront shaping devices.
 </p>
 
     </div>
