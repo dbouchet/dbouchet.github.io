@@ -39,9 +39,9 @@ In the last decades, the possibility to shape incident waves in space and time h
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/movie_speckle.gif" title="movie waves" class="img-fluid rounded z-depth-1" %}
-        <p align="justify">
+        <p align="center">
         <small>
-        <i>Waves propagating through a random scattering medium produce highly-complex interference patterns.</i>
+        <i>Waves propagating through a disordered scattering medium produce highly-complex interference patterns.</i>
         </small>
         </p>
     </div>

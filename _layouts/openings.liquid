@@ -1,0 +1,36 @@
+---
+layout: page
+---
+<div class="post">
+  <article>
+    {% if page.openings %}
+      {% for opening in page.openings %}
+        <hr>
+        <div class="opening float-{% if opening.align == 'left' %}left{% else %}right{% endif %}">
+          {% if opening.image %}
+            {% assign opening_image_path = opening.image | prepend: 'assets/img/' %}
+            {% if opening.image_circular %}
+              {% assign opening_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+            {% else %}
+              {% assign opening_image_class = 'img-fluid z-depth-1 rounded' %}
+            {% endif %}
+            {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+            {% include figure.liquid loading="eager" path=opening_image_path class=opening_image_class sizes=sizes alt=opening.image %}
+          {% endif %}
+          {% if opening.more_info %}
+            <div class="more-info">{{ opening.more_info }}</div>
+          {% endif %}
+        </div>
+
+        <div class="clearfix">
+          {% if opening.content %}
+            {% capture opening_content %}{% include_relative {{ opening.content }} %}{% endcapture %}
+            {{ opening_content | markdownify }}
+          {% else %}
+            {{ content }}
+          {% endif %}
+        </div>
+      {% endfor %}
+    {% endif %}
+  </article>
+</div>
