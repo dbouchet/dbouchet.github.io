@@ -1,5 +1,5 @@
 ---
-layout: openings
+layout: page
 permalink: /openings/
 title: Openings
 description: We are always looking for motivated scientists! Spontaneous applications for Master internships, PhD theses and post-docs are welcome at any time: dorian.bouchet@univ-grenoble-alpes.fr
@@ -16,3 +16,4 @@ openings:
     content: phd_acoustic_sensing.md
     image_circular: false # crops the image to make it circular
 ---
+Test
