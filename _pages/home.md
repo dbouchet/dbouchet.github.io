@@ -31,14 +31,14 @@ In the last decades, the possibility to shape incident waves in space and time h
 ## About me
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-7 mt-3 mt-md-0">
 
-I did my PhD at ESPCI Paris, during which I studied light-matter interaction at the nanoscale. I then worked on waves in complex media as a post-doc at ESPCI Paris, Utrecht University (the Netherlands) and Université Grenoble Alpes. I am now pursuing these activities as a CNRS researcher in an interdisciplinary laboratory of physics (LIPhy) in Grenoble, working with optical and acoustic waves. I have always enjoyed tackling challenges in physics as an experimentalist but also through numerical and theoretical approaches.
+I did my PhD at [Institut Langevin](https://www.institut-langevin.espci.fr/home) ([ESPCI Paris](https://www.espci.psl.eu/)), during which I studied light-matter interaction at the nanoscale. I then worked on waves in complex media as a post-doc at [Utrecht University](https://www.uu.nl/en) (the Netherlands) and [LIPhy](https://liphy.univ-grenoble-alpes.fr/) ([Université Grenoble Alpes](https://www.univ-grenoble-alpes.fr/)). I am now pursuing these activities in Grenoble at LIPhy as a researcher employed by the [CNRS](https://www.cnrs.fr). A specificity of this lab is that it is an interdisciplinary laboratory of physics. There, I'm working on the propagation of both light waves and acoustic waves in complex media. I have always enjoyed tackling challenges in physics as an experimentalist but also through numerical and theoretical approaches.
 
 Besides physics, I like to spend time in the mountains around Grenoble, especially for rock climbing.
 
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-sm-5 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/prof_pic.jpg" title="profile picture" class="img-fluid rounded z-depth-1" %}
     </div>
 
