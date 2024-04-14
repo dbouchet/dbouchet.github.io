@@ -11,7 +11,7 @@ social: true # includes social icons at the bottom of the page
 
 ## The challenge
 
-Waves propagating inside disordered media leads to seemingly intractable complex interference patterns.  This effect prevents conventional imaging techniques, such as optical microscopy or ultrasound imaging, to be employed in complex media.  As such, this constitutes a critical challenge for biological imaging. This challenge motivates us to get a better fundamental understanding of how waves propagate in complex media.
+Waves propagating inside disordered media leads to seemingly intractable complex interference patterns. This effect prevents conventional imaging techniques, such as optical microscopy or ultrasound imaging, to be employed in complex media. As such, this constitutes a critical challenge for biological imaging. This challenge motivates us to get a better fundamental understanding of how waves propagate in complex media.
 
 ## The approach
 
