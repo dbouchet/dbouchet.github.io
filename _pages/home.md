@@ -17,8 +17,21 @@ Waves propagating inside disordered media leads to seemingly intractable complex
 
 In the last decades, the possibility to shape incident waves in space and time has been widely used to control and maximize the energy of waves within complex scattering media. In our group, we now want to control and maximize the amount of information in the measured scattered waves. For this purpose, we associate conceptuals tools from wave theory and information theory, and we conduct experimental proofs of concept using state-of-the-art wavefront shaping devices (digital micromirror devices in optics, transducers array in acoustics).
 
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+
 ## About me
 
 I did my PhD at ESPCI Paris, during which I studied light-matter interaction at the nanoscale. I then worked on waves in complex media as a post-doc at ESPCI Paris, Utrecht University (the Netherlands) and Université Grenoble Alpes. I am now pursuing these activities as a CNRS researcher in an interdisciplinary laboratory of physics (LIPhy) in Grenoble, working with optical and acoustic waves. I have always enjoyed tackling challenges in physics as an experimentalist but also through numerical and theoretical approaches.
 
 Besides physics, I like to spend time in the mountains around Grenoble, especially for rock climbing.
+
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/prof_pic.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+
+</div>
+<div class="caption">
+    You can also have artistically styled 2/3 + 1/3 images, like these.
+</div>
