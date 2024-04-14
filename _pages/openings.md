@@ -2,18 +2,11 @@
 layout: page
 permalink: /openings/
 title: Openings
-description: We are always looking for motivated scientists! Spontaneous applications for Master internships, PhD theses and post-docs are welcome at any time: dorian.bouchet@univ-grenoble-alpes.fr
+description: Materials for courses you taught. Replace this text with your description.
 nav: true
 nav_order: 3
-
-openings:
-  - align: right
-    image: fisher_optics.png
-    content: phd_optical_focusing.md
-    image_circular: false # crops the image to make it circular
-  - align: right
-    image: fisher_acoustics.png
-    content: phd_acoustic_sensing.md
-    image_circular: false # crops the image to make it circular
 ---
-Test
+
+For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+
+Organize your courses by years, topics, or universities, however you like!
