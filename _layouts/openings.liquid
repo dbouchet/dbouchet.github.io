@@ -4,18 +4,21 @@ layout: page
 <div class="post">
   <article>
     <hr>
-    {{ page.intro }}
+      % capture page_intro %}{% include_relative {{ page.intro }} %}{% endcapture %}
+      {{ page_intro | markdownify }}
     {% if page.profiles %}
       {% for profile in page.profiles %}
         <hr>
-	<div class="row justify-content-sm-center">
- 	   <div class="col-sm-8 mt-3 mt-md-0">
-		profile.content
- 	   </div>
- 	   <div class="col-sm-4 mt-3 mt-md-0">
-        	{% include figure.liquid path=profile.image class="img-fluid rounded z-depth-1" %}	
-           </div>
-	</div>
+        <div class="row justify-content-sm-center">
+          <div class="col-sm-8 mt-3 mt-md-0">
+            {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
+            {{ profile_content | markdownify }}
+          </div>
+          <div class="col-sm-4 mt-3 mt-md-0">
+            {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+            {% include figure.liquid path=profile_image_path class="img-fluid rounded z-depth-1" %}
+          </div>
+        </div>
       {% endfor %}
     {% endif %}
   </article>
