@@ -4,13 +4,13 @@ layout: page
 <div class="post">
   <article>
     <hr>
-    {% include_relative page.intro %}
+    {% include_relative {{page.intro}} %}
     {% if page.profiles %}
       {% for profile in page.profiles %}
         <hr>
         <div class="row justify-content-sm-center">
           <div class="col-sm-8 mt-3 mt-md-0">
-            {% include_relative profile.content %}
+            {% include_relative {{profile.content}} %}
           </div>
           <div class="col-sm-4 mt-3 mt-md-0">
             {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
