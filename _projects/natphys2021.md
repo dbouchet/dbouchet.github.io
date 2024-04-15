@@ -12,10 +12,10 @@ Laser beams can be used to precisely measure an object’s position or velocity.
 </p>
 
 <p align="justify"> 
-However, in collaboration with researchers at Utrecht University (Netherlands) and TU Wien (Vienna, Austria), we have been able to show that meaningful results can be obtained even in such complicated environments. Indeed, there is a way to specifically modify the laser beam so that it delivers exactly the desired information in the complex, disordered environment - and not just approximately, but in a physically optimal way: Nature does not allow for more precision with coherent laser light. The new technology can be used in very different fields of application, even with different types of waves
+However, in collaboration with researchers at Utrecht University (Netherlands) and TU Wien (Vienna, Austria), we have been able to show that meaningful results can be obtained even in such complicated environments. Indeed, there is a way to specifically modify the laser beam so that it delivers exactly the desired information in the complex, disordered environment - and not just approximately, but in a physically optimal way: Nature does not allow for more precision with coherent laser light. The new technology can be used in very different fields of application, even with different types of waves.
 
 </p>
 
 <p align="justify"> 
-This study has been published in Physical Review Letters {% cite bouchet_maximum_2021 %}, and has been highlighted by <a href="https://physicsworld.com/a/complex-light-waves-measure-hidden-objects/">Physics World</a>  and <a href="https://www.wavefrontshaping.net/post/id/72">Wavefrontshaping.net</a> .
+This study has been published in Nature Physics {% cite bouchet_maximum_2021 %}, and has been highlighted by <a href="https://physicsworld.com/a/complex-light-waves-measure-hidden-objects/">Physics World</a>  and <a href="https://www.wavefrontshaping.net/post/id/72">Wavefrontshaping.net</a>.
 </p>
