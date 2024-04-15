@@ -5,14 +5,14 @@ layout: page
   <article>
     <hr>
     {% assign intro_path = page.intro | prepend: '_openings/' %}
-    {{ intro_path }}
+    {% include {{intro_path}} %}
     {% if page.profiles %}
       {% for profile in page.profiles %}
         <hr>
         <div class="row justify-content-sm-center">
           <div class="col-sm-8 mt-3 mt-md-0">
             {% assign content_path = profile.content | prepend: '_openings/' %}
-            {{ content_path }}
+            {% include {{content_path}} %}
           </div>
           <div class="col-sm-4 mt-3 mt-md-0">
             {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
