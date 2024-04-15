@@ -7,6 +7,16 @@ importance: 2
 related_publications: true
 ---
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/highlights/prresearch2023_highres.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Photographs of the acoustic waveguide and of the disordered scattering medium composed of 37 rods maintained by a 3D-printed holder. In the actual experiment, the rods are inside the waveguide, and the system is immersed in water.
+</div>
+
+
 <p align="justify"> 
 Time-resolved measurements are ubiquitous in physical sciences and engineering. Such measurements are, however, especially difficult to perform in complex scattering systems such as biological tissues or engineered structures. Indeed, a wave propagating through such a system typically yields an uncontrolled temporal field distribution. Here, we show how this distribution can in fact be controlled and tuned so that it allows one to estimate the value of any given observable with ultimate precision.
 </p>
