@@ -13,7 +13,7 @@ layout: page
             {% include_relative {{profile.content}} %}
           </div>
           <div class="col-sm-4 mt-3 mt-md-0">
-            {% assign profile_image_path = profile.image | prepend: 'assets/openings/' %}
+            {% assign profile_image_path = profile.image | prepend: 'assets/img/openings/' %}
             {% include figure.liquid path=profile_image_path class="img-fluid rounded z-depth-1" %}
           </div>
         </div>
