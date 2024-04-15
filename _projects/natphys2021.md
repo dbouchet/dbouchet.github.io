@@ -13,7 +13,7 @@ related_publications: true
     </div>
 </div>
 <div class="caption">
-    Artistic representation of coherent light waves escaping a complex, disordered environment. 
+By calculating the optimal wave pattern for the incident laser light, it becomes possible to accurately measure objects located behind disordered structures.
 </div>
 
 <p align="justify"> 
