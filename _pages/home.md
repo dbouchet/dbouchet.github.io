@@ -11,6 +11,14 @@ social: true # includes social icons at the bottom of the page
 
 <br>
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/waves_in_complex_systems.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<br>
+
 <hr />
 
 <p align="center"> 
