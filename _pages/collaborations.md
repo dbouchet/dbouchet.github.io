@@ -6,9 +6,9 @@ nav: true
 nav_order: 4
 ---
 
-<hr>
+<div class="collaborations">
 
-<h3>Collaborations at LIPhy</h3>
+<h2 class="category">At LIPhy</h2>
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-2 mt-3 mt-md-0">
@@ -95,4 +95,6 @@ nav_order: 4
 <small><span style="color:Gray;">TU Wien (Austria)</span></small>
 </p>
     </div>
+</div>
+
 </div>
