@@ -12,13 +12,13 @@ nav_order: 4
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/logos/liphy.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/logos/liphy.png" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
 <ul style="list-style-type:square">
-<li> Prof. Emmanuel Bossy <\li>
-<li> Dr. Benjamin Dollet <\li>
-<li> Dr. Philippe Marmottant <\li>
+<li> Prof. Emmanuel Bossy </li>
+<li> Dr. Benjamin Dollet </li>
+<li> Dr. Philippe Marmottant </li>
 </ul>
     </div>
 </div>
@@ -29,7 +29,7 @@ nav_order: 4
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-2 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/logos/espciparis.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/logos/espciparis.png" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-10 mt-3 mt-md-0">
 <p> 
@@ -43,7 +43,7 @@ ESPCI Paris (France)
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-2 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/logos/uglasgow.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/logos/uglasgow.png" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-10 mt-3 mt-md-0">
 <p> 
@@ -57,7 +57,7 @@ University of Glasgow (UK)
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-2 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/logos/uwien.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/logos/uwien.png" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-10 mt-3 mt-md-0">
 <p> 
@@ -71,7 +71,7 @@ University of Vienna (Austria)
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-2 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/logos/uutrecht.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/logos/uutrecht.png" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-10 mt-3 mt-md-0">
 <p> 
@@ -85,7 +85,7 @@ Utrecht University (the Netherlands)
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-2 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/logos/espciparis.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/logos/espciparis.png" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-10 mt-3 mt-md-0">
 <p> 
@@ -99,7 +99,7 @@ ESPCI Paris (France)
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-2 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/logos/tuwien.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/logos/tuwien.png" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-10 mt-3 mt-md-0">
 <p> 
