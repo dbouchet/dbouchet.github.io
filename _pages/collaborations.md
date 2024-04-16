@@ -10,11 +10,13 @@ nav_order: 4
 
 <h3>Collaborations at LIPhy</h3>
 
+<br>
+
 <div class="row justify-content-sm-center">
-    <div class="col-sm-3 mt-3 mt-md-0">
+    <div class="col-sm-2 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/logos/liphy.png" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-7 mt-3 mt-md-0">
+    <div class="col-sm-10 mt-3 mt-md-0">
 <ul style="list-style-type:square">
 <li> <b><a href="https://www.univ-grenoble-alpes.fr/emmanuel-bossy-536767.kjsp">Prof. Emmanuel Bossy</a></b> </li>
 <li> <b><a href="https://sites.google.com/site/benjamindolletcnrs/">Dr. Benjamin Dollet</a> </b></li>
@@ -26,6 +28,8 @@ nav_order: 4
 <br>
 
 <h3>Collaborations with other labs</h3>
+
+<br>
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-2 mt-3 mt-md-0">
@@ -57,7 +61,7 @@ nav_order: 4
     </div>
     <div class="col-sm-10 mt-3 mt-md-0">
 <p> 
-<b><a href="https://imaging.univie.ac.at/people">Dr. Thomas Juffmann</a></b>
+<b><a href="https://imaging.univie.ac.at/people">Dr. Thomas Juffmann</a></b><br />
 <small><span style="color:Gray;">University of Vienna (Austria)</span></small>
 </p>
     </div>
@@ -69,7 +73,7 @@ nav_order: 4
     </div>
     <div class="col-sm-10 mt-3 mt-md-0">
 <p> 
-<a href="https://www.uu.nl/staff/APMosk">Prof. Allard P. Mosk</a></b><br />
+<b><a href="https://www.uu.nl/staff/APMosk">Prof. Allard P. Mosk</a></b><br />
 <small><span style="color:Gray;">Utrecht University (the Netherlands)</span></small>
 </p>
     </div>
@@ -93,7 +97,7 @@ nav_order: 4
     </div>
     <div class="col-sm-10 mt-3 mt-md-0">
 <p> 
-<b><a href="https://rottergroup.itp.tuwien.ac.at/">Prof. Stefan Rotter</a><br />
+<b><a href="https://rottergroup.itp.tuwien.ac.at/">Prof. Stefan Rotter</a></b><br />
 <small><span style="color:Gray;">TU Wien (Austria)</span></small>
 </p>
     </div>
