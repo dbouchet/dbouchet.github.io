@@ -6,6 +6,48 @@ nav: true
 nav_order: 4
 ---
 
-<p align="justify"> 
-Waves propagating inside disordered media leads to seemingly intractable complex interference patterns. This effect prevents conventional imaging techniques, such as optical microscopy or ultrasound imaging, to be employed in complex media. As such, this constitutes a critical challenge for biological imaging. This challenge motivates us to get a better fundamental understanding of how waves propagate in complex media.
+
+<div class="row justify-content-sm-center">
+
+    <div class="col-sm-1 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/prof_pic.jpg" title="profile picture" class="img-fluid rounded z-depth-1" %}
+    </div>
+
+    <div class="col-sm-11 mt-3 mt-md-0">
+<p> 
+This is a test
 </p>
+    </div>
+
+
+</div>
+
+<div class="row justify-content-sm-center">
+
+    <div class="col-sm-1 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/prof_pic.jpg" title="profile picture" class="img-fluid rounded z-depth-1" %}
+    </div>
+
+    <div class="col-sm-11 mt-3 mt-md-0">
+<p> 
+This is a test
+</p>
+    </div>
+
+
+</div>
+
+<div class="row justify-content-sm-center">
+
+    <div class="col-sm-1 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/prof_pic.jpg" title="profile picture" class="img-fluid rounded z-depth-1" %}
+    </div>
+
+    <div class="col-sm-11 mt-3 mt-md-0">
+<p> 
+This is a test
+</p>
+    </div>
+
+
+</div>
