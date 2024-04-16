@@ -1,13 +1,7 @@
 <h3> PhD proposal </h3>
 
 <p> 
-<b> Optimal selective focusing of light on moving targets </b>
+<b> <a href="/assets/openings/phd_proposal_light_focusing_en.pdf">Optimal selective focusing of light on moving targets</a> </b><br />
+<small><span style="color:Gray;">2024-2027. Funding already secured.</span></small>
 </p>
 
-<p> 
-2024-2027. Funding already secured.
-</p>
-
-<p> 
-<a href="/assets/openings/phd_proposal_light_focusing_en.pdf">[English version]</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="/assets/openings/proposition_these_focalisation_optique_fr.pdf">[French version]</a>
-</p>
