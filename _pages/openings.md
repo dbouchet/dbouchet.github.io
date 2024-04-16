@@ -10,4 +10,6 @@ profiles:
     content: openings/phd_optical_focusing.md
   - image: fisher_acoustics.png
     content: openings/phd_acoustic_sensing.md
+  - image: figure_bubbles.png
+    content: openings/msc_acoustic_metamaterials.md
 ---
