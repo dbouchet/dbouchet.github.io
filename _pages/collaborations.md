@@ -34,7 +34,7 @@ nav_order: 4
     <div class="col-sm-10 mt-3 mt-md-0">
 <p> 
 <b><a href="https://www.institut-langevin.espci.fr/remi_carminati">Prof. Rémi Carminati</a></b><br />
-<small>ESPCI Paris (France)</small>
+<small><span style="color:Gray;">ESPCI Paris (France)</span></small>
 </p>
     </div>
 </div>
@@ -46,7 +46,7 @@ nav_order: 4
     <div class="col-sm-10 mt-3 mt-md-0">
 <p> 
 <b><a href="https://www.physics.gla.ac.uk/xtremelight/cv.html">Prof. Daniele Faccio</a></b><br />
-<small><div style="color: #8C92AC">University of Glasgow (UK)</div></small>
+<small><span style="color:Gray;">University of Glasgow (UK)</span></small>
 </p>
     </div>
 </div>
@@ -58,7 +58,7 @@ nav_order: 4
     <div class="col-sm-10 mt-3 mt-md-0">
 <p> 
 <b><a href="https://imaging.univie.ac.at/people">Dr. Thomas Juffmann</a></b>
-<p class="card-text">University of Vienna (Austria)</p>
+<small><span style="color:Gray;">University of Vienna (Austria)</span></small>
 </p>
     </div>
 </div>
@@ -70,7 +70,7 @@ nav_order: 4
     <div class="col-sm-10 mt-3 mt-md-0">
 <p> 
 <a href="https://www.uu.nl/staff/APMosk">Prof. Allard P. Mosk</a></b><br />
-<small>Utrecht University (the Netherlands)</small>
+<small><span style="color:Gray;">Utrecht University (the Netherlands)</span></small>
 </p>
     </div>
 </div>
@@ -81,8 +81,8 @@ nav_order: 4
     </div>
     <div class="col-sm-10 mt-3 mt-md-0">
 <p> 
-<b><a href="https://www.wavefrontshaping.net/about">Dr. Sébastien Popoff</a></b><br />
-<small>ESPCI Paris (France)</small>
+<b><a href="https://www.wavefrontshaping.net/about">Dr. Sébastien M. Popoff</a></b><br />
+<small><span style="color:Gray;">ESPCI Paris (France)</span></small>
 </p>
     </div>
 </div>
@@ -94,7 +94,7 @@ nav_order: 4
     <div class="col-sm-10 mt-3 mt-md-0">
 <p> 
 <b><a href="https://rottergroup.itp.tuwien.ac.at/">Prof. Stefan Rotter</a><br />
-<small>TU Wien (Austria)</small>
+<small><span style="color:Gray;">TU Wien (Austria)</span></small>
 </p>
     </div>
 </div>
