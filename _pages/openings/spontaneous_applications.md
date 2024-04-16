@@ -7,5 +7,4 @@ We are always looking for motivated scientists! Spontaneous applications for Mas
 <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
 </div>
 </div>
-
 </p>
