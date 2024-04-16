@@ -16,9 +16,9 @@ nav_order: 4
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
 <ul style="list-style-type:square">
-<li> Prof. Emmanuel Bossy </li>
-<li> Dr. Benjamin Dollet </li>
-<li> Dr. Philippe Marmottant </li>
+<li> <a href="https://www.univ-grenoble-alpes.fr/emmanuel-bossy-536767.kjsp">Prof. Emmanuel Bossy</a> </li>
+<li> <a href="https://sites.google.com/site/benjamindolletcnrs/">Dr. Benjamin Dollet</a> </li>
+<li> <a href="http://liphy-annuaire.univ-grenoble-alpes.fr/pages_personnelles/philippe_marmottant/Home.html">Dr. Philippe Marmottant</a> </li>
 </ul>
     </div>
 </div>
@@ -33,9 +33,7 @@ nav_order: 4
     </div>
     <div class="col-sm-10 mt-3 mt-md-0">
 <p> 
-Prof. Rémi Carminati
-</p>
-<p> 
+<a href="https://www.institut-langevin.espci.fr/waves_in_complex_media?lang=en">Prof. Rémi Carminati</a><br />
 ESPCI Paris (France)
 </p>
     </div>
@@ -47,9 +45,7 @@ ESPCI Paris (France)
     </div>
     <div class="col-sm-10 mt-3 mt-md-0">
 <p> 
-Prof. Daniele Faccio
-</p>
-<p> 
+<a href="https://www.physics.gla.ac.uk/xtremelight/">Prof. Daniele Faccio</a><br />
 University of Glasgow (UK)
 </p>
     </div>
@@ -61,9 +57,7 @@ University of Glasgow (UK)
     </div>
     <div class="col-sm-10 mt-3 mt-md-0">
 <p> 
-Dr. Thomas Juffmann
-</p>
-<p> 
+<a href="https://imaging.univie.ac.at/">Dr. Thomas Juffmann</a><br />
 University of Vienna (Austria)
 </p>
     </div>
@@ -75,9 +69,7 @@ University of Vienna (Austria)
     </div>
     <div class="col-sm-10 mt-3 mt-md-0">
 <p> 
-Prof. Allard P. Mosk
-</p>
-<p> 
+<a href="https://www.uu.nl/en/research/nanophotonics">Prof. Allard P. Mosk</a><br />
 Utrecht University (the Netherlands)
 </p>
     </div>
@@ -89,9 +81,7 @@ Utrecht University (the Netherlands)
     </div>
     <div class="col-sm-10 mt-3 mt-md-0">
 <p> 
-Dr. Sébastien Popoff
-</p>
-<p> 
+<a href="https://www.wavefrontshaping.net/">Dr. Sébastien Popoff</a><br />
 ESPCI Paris (France)
 </p>
     </div>
@@ -103,9 +93,7 @@ ESPCI Paris (France)
     </div>
     <div class="col-sm-10 mt-3 mt-md-0">
 <p> 
-Prof. Stefan Rotter
-</p>
-<p> 
+<a href="https://rottergroup.itp.tuwien.ac.at/">Prof. Stefan Rotter</a><br />
 TU Wien (Austria)
 </p>
     </div>
