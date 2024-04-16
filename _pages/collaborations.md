@@ -6,48 +6,107 @@ nav: true
 nav_order: 4
 ---
 
+<br>
+
+<h3>Collaborations at LIPhy</h3>
 
 <div class="row justify-content-sm-center">
-
-    <div class="col-sm-1 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/prof_pic.jpg" title="profile picture" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/logos/liphy.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
+    <div class="col-sm-8 mt-3 mt-md-0">
+<ul style="list-style-type:square">
+<li> Prof. Emmanuel Bossy <\li>
+<li> Dr. Benjamin Dollet <\li>
+<li> Dr. Philippe Marmottant <\li>
+</ul>
+    </div>
+</div>
 
-    <div class="col-sm-11 mt-3 mt-md-0">
+<br>
+
+<h3>Collaborations with other labs</h3>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-2 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/logos/espciparis.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-10 mt-3 mt-md-0">
 <p> 
-This is a test
+Prof. Rémi Carminati
+</p>
+<p> 
+ESPCI Paris (France)
 </p>
     </div>
-
-
 </div>
 
 <div class="row justify-content-sm-center">
-
-    <div class="col-sm-1 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/prof_pic.jpg" title="profile picture" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-2 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/logos/uglasgow.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
-
-    <div class="col-sm-11 mt-3 mt-md-0">
+    <div class="col-sm-10 mt-3 mt-md-0">
 <p> 
-This is a test
+Prof. Daniele Faccio
+</p>
+<p> 
+University of Glasgow (UK)
 </p>
     </div>
-
-
 </div>
 
 <div class="row justify-content-sm-center">
-
-    <div class="col-sm-1 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/prof_pic.jpg" title="profile picture" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-2 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/logos/uwien.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
-
-    <div class="col-sm-11 mt-3 mt-md-0">
+    <div class="col-sm-10 mt-3 mt-md-0">
 <p> 
-This is a test
+Dr. Thomas Juffmann
+</p>
+<p> 
+University of Vienna (Austria)
 </p>
     </div>
+</div>
 
+<div class="row justify-content-sm-center">
+    <div class="col-sm-2 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/logos/uutrecht.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-10 mt-3 mt-md-0">
+<p> 
+Prof. Allard P. Mosk
+</p>
+<p> 
+Utrecht University (the Netherlands)
+</p>
+    </div>
+</div>
 
+<div class="row justify-content-sm-center">
+    <div class="col-sm-2 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/logos/espciparis.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-10 mt-3 mt-md-0">
+<p> 
+Dr. Sébastien Popoff
+</p>
+<p> 
+ESPCI Paris (France)
+</p>
+    </div>
+</div>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-2 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/logos/tuwien.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-10 mt-3 mt-md-0">
+<p> 
+Prof. Stefan Rotter
+</p>
+<p> 
+TU Wien (Austria)
+</p>
+    </div>
 </div>
