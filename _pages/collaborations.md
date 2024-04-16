@@ -6,11 +6,9 @@ nav: true
 nav_order: 4
 ---
 
-<br>
+<hr>
 
 <h3>Collaborations at LIPhy</h3>
-
-<br>
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-2 mt-3 mt-md-0">
@@ -25,11 +23,9 @@ nav_order: 4
     </div>
 </div>
 
-<br>
+<hr>
 
 <h3>Collaborations with other labs</h3>
-
-<br>
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-2 mt-3 mt-md-0">
