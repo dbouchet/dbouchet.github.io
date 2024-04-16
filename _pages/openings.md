@@ -3,7 +3,7 @@ layout: openings
 permalink: /openings/
 title: Openings
 nav: true
-nav_order: 4
+nav_order: 5
 intro: openings/spontaneous_applications.md
 profiles:
   - image: fisher_optics.png
