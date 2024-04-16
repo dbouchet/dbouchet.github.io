@@ -23,9 +23,7 @@ nav_order: 4
     </div>
 </div>
 
-<hr>
-
-<h3>Collaborations with other labs</h3>
+<h2 class="category">With other labs</h2>
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-2 mt-3 mt-md-0">
