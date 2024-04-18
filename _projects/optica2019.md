@@ -18,7 +18,7 @@ Reconstructed image of a silver nanowire (115 nm in diameter). Each dot represen
 
 <p align="justify"> 
 Fluorescence lifetime imaging microscopy (FLIM) stands as a cornerstone in biophysics for studying cellular mechanisms. By measuring the photon emission rate of fluorescent molecules located inside the cells, it is possible to recover important information such as ion concentration, pH or lipophilicity. However, the resolution of this technique is typically limited by diffraction to about 300 nm, preventing the observation of many intracellular mechanisms that occur on a smaller scale.
-</div>
+</p>
 
 <p align="justify"> 
 In our study, we demonstrate that it is possible to perform such photon emission rate measurements on the nanoscale. Drawing inspiration from the pioneering work of Eric Betzig, William Moerner, and Stefan Hell, laureates of the 2014 Nobel Prize in Chemistry, we employed blinking fluorescent molecules instead of traditional ones. By localizing each molecule at a time, we were able to measure their position with a very high precision using a sensitive camera. However, instead of sending all emitted photons onto this camera, we redirected half of them towards a fast photon detector. In this way, we were able to simultaneously measure the photon emission rate of these molecules. In our first experiment, we were able to observe the enhancement of the photon emission rate induced by a silver nanowire, with a spatial resolution of 10 nm and a temporal resolution down to 100 ps. With this approach, it thus becomes possible to measure the photon emission rate of fluorescent molecule on the nanometer scale, with potential applications in biophysics for the study of intracellular mechanisms. 
