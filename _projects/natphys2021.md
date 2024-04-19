@@ -21,7 +21,7 @@ Laser beams can be used to precisely measure an object’s position or velocity.
 </p>
 
 <p align="justify"> 
-However, in collaboration with researchers at Utrecht University (Netherlands) and TU Wien (Vienna, Austria), we have been able to show that meaningful results can be obtained even in such complicated environments. Indeed, there is a way to specifically modify the laser beam so that it delivers exactly the desired information in the complex, disordered environment - and not just approximately, but in a physically optimal way: Nature does not allow for more precision with coherent laser light. The new technology can be used in very different fields of application, even with different types of waves.
+However, in collaboration with researchers at Utrecht University (the Netherlands) and TU Wien (Austria), we have been able to show that meaningful results can be obtained even in such complicated environments. Indeed, there is a way to specifically modify the laser beam so that it delivers exactly the desired information in the complex, disordered environment - and not just approximately, but in a physically optimal way: Nature does not allow for more precision with coherent laser light. The new technology can be used in very different fields of application, even with different types of waves.
 
 </p>
 
