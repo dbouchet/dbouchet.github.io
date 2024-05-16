@@ -2,7 +2,7 @@
 layout: home
 title: Home
 permalink: /
-subtitle: Wave Physics & Information in Complex Systems
+subtitle: Waves Physics & Information in Complex Systems
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
