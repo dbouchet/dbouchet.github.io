@@ -17,6 +17,8 @@ social: true # includes social icons at the bottom of the page
     </div>
 </div>
 
+<!--
+
 <br>
 
 <hr />
@@ -28,6 +30,8 @@ We are hiring! Have a look at our <a href="/openings/">job openings</a>
 </p>
 
 <hr />
+
+-->
 
 <br>
 
