@@ -162,15 +162,13 @@
 
     <!-- Combine entry type, pages, and date -->
     {% capture periodical %}
-  {{ entrytype }}
-{% if entry.pages %}
-{{', '}}
-{{ entrypages }}
-{% endif %}
-  {% if entrydate != "" %}
-    {{ ' ' }}
-    ({% if entry.month %}{{ entry.month | capitalize }} {% endif %}{{ entry.year }})
-  {% endif %}
+  {{  entrytype -}}
+  {%- if entry.pages -%}
+    , {{ entrypages | strip }}
+  {%- endif -%}
+  {%- if entrydate != "" -%}
+    ({{ entrydate }})
+  {%- endif -%}
 {% endcapture %}
 
     <!-- Output the formatted periodical and any additional note -->
