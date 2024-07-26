@@ -163,10 +163,11 @@
     <!-- Combine entry type, pages, and date -->
     {% assign entrytype_text = entrytype | strip_html | strip %}
     {% capture periodical %}
-  {{ entrytype }}
+  {{ - entrytype - }}
 {% if entry.pages %}
 {{', '}}
-{{ entrypages }}{% endif %}
+{{ entrypages | strip }}
+{% endif %}
   {% if entrydate != "" %}
     {{ ' ' }}
     ({% if entry.month %}{{ entry.month | capitalize }} {% endif %}{{ entry.year }})
