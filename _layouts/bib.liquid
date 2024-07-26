@@ -160,7 +160,7 @@
     {% assign entrytype_text = entrytype | strip_html | strip %}
     {% capture periodical %}
   {{ entrytype | strip }}
-  {% if entry.pages %}, {{ entrypages }}{% endif %}
+  {% if entry.pages %}, {{ entrypages | strip }}{% endif %}
   {% if entrydate != "" %}
     ({% if entry.month %}{{ entry.month | capitalize }} {% endif %}{{ entry.year }})
   {% endif %}
