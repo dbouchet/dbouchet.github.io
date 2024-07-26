@@ -77,18 +77,21 @@
         {% endif %}
         {%- if author_is_self -%}
           <em>
-            {{- author.first -}}
-            {{- author.last -}}
+            {{- author.first }}
+            {{ author.last }}
+            <!-- Concatenated with space -->
           </em>
         {%- else -%}
           {%- if coauthor_url -%}
             <a href="{{coauthor_url}}">
-              {{- author.first -}}
-              {{- author.last -}}
+              {{- author.first }}
+              {{ author.last }}
+              <!-- Concatenated with space -->
             </a>
           {%- else -%}
-            {{- author.first -}}
-            {{- author.last -}}
+            {{- author.first }}
+            {{ author.last }}
+            <!-- Concatenated with space -->
           {% endif %}
         {%- endif -%}
       {% endfor %}
