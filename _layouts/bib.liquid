@@ -77,21 +77,21 @@
         {% endif %}
         {%- if author_is_self -%}
           <em>
-            {{ author.first | strip -}}
-            {{- ' ' -}}
-            {{- author.last | strip }}
+            {{- author.first -}}
+            {{ ' ' }}
+            {{- author.last -}}
           </em>
         {%- else -%}
           {%- if coauthor_url -%}
-            <a href="{{ coauthor_url }}">
-              {{ author.first | strip -}}
-              {{- ' ' -}}
-              {{- author.last | strip }}
+            <a href="{{coauthor_url}}">
+              {{- author.first -}}
+              {{ ' ' }}
+              {{- author.last -}}
             </a>
           {%- else -%}
-            {{ author.first | strip -}}
-            {{- ' ' -}}
-            {{- author.last | strip }}
+            {{- author.first -}}
+            {{ ' ' }}
+            {{- author.last -}}
           {% endif %}
         {%- endif -%}
       {% endfor %}
