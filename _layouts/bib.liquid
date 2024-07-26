@@ -72,7 +72,7 @@
 
         {%- if forloop.length > 1 -%}
           {% if forloop.first == false %},&nbsp;{% endif %}
-          {%- if forloop.last and author_array_limit == author_array_size %}and&nbsp;{% endif -%}
+          {%- if forloop.last and author_array_limit == author_array_size %}and&nbsp;{% endif %}
         {% endif %}
         {%- if author_is_self -%}
           <em>
@@ -135,7 +135,7 @@
     {% if entry.type == 'article' %}
       {% capture entrytype %}
     <em>{{ entry.journal }}</em>
-    {% if entry.number %}<strong>{{ entry.number }}</strong>{% endif %}
+    {% if entry.number %}<span style="font-weight: 600;">{{ entry.number }}</span>{% endif %}
   {% endcapture %}
     {% elsif proceedings contains entry.type %}
       {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
