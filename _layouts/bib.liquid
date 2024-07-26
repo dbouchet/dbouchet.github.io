@@ -161,12 +161,11 @@
 {% endcapture %}
 
     <!-- Combine entry type, pages, and date -->
-    {% assign entrytype_text = entrytype | strip_html | strip %}
     {% capture periodical %}
-  {{ entrytype - }}
+  {{ entrytype }}
 {% if entry.pages %}
 {{', '}}
-{{ entrypages | strip }}
+{{ entrypages }}
 {% endif %}
   {% if entrydate != "" %}
     {{ ' ' }}
@@ -176,10 +175,10 @@
 
     <!-- Output the formatted periodical and any additional note -->
     <div class="periodical">
-      {{ periodical | strip }}
+      {{ periodical }}
     </div>
     <div class="periodical">
-      {{ entry.note | strip }}
+      {{ entry.note }}
     </div>
 
     <!-- Links/Buttons -->
