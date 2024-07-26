@@ -136,11 +136,11 @@
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
 
     <!-- Determine entry type and capture relevant bibliographic detail -->
-    {% if entry.type == 'article' %}
-      {% capture entrytype %}
-    <em>{{ entry.journal }}</em>
-    {% if entry.number %}<span style="font-weight: 400;">{{ entry.number - }}</span>{% endif %}
-  {% endcapture %}
+    {%- if entry.type == 'article' -%}
+      {%- capture entrytype -%}
+    <em>{{ - entry.journal - }}</em>
+    {%- if entry.number -%}<span style="font-weight: 400;">{{ - entry.number - }}</span>{%- endif -%}
+  {%- endcapture -%}
     {% elsif proceedings contains entry.type %}
       {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
     {% elsif thesis contains entry.type %}
@@ -161,12 +161,12 @@
 {% endcapture %}
 
     <!-- Combine entry type, pages, and date -->
-    {% capture periodical %}
-  {{ entrytype }}
-{% if entry.pages %}
+    {%- capture periodical -%}
+  {{ entrytype - }}
+{%- if entry.pages -%}
 {{', '}}
 {{ entrypages }}
-{% endif %}
+{%- endif -%}
   {% if entrydate != "" %}
     {{ ' ' }}
     ({% if entry.month %}{{ entry.month | capitalize }} {% endif %}{{ entry.year }})
