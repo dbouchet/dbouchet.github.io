@@ -130,23 +130,43 @@
     <!-- Journal/Book title and date -->
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
+
+    <!-- Determine entry type and capture relevant bibliographic detail -->
     {% if entry.type == 'article' %}
-      {% capture entrytype %}<em>{{entry.journal}}</em>{% endcapture %}
+      {% capture entrytype %}
+    <em>{{ entry.journal }}</em>
+    {% if entry.number %}<strong>{{ entry.number }}</strong>{% endif %}
+  {% endcapture %}
     {% elsif proceedings contains entry.type %}
-      {% capture entrytype %}<em>In {{entry.booktitle}}</em> {% endcapture %}
+      {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
     {% elsif thesis contains entry.type %}
-      {% capture entrytype %}<em>{{entry.school}}</em> {% endcapture %}
+      {% capture entrytype %}<em>{{ entry.school }}</em>{% endcapture %}
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
-    {% if entry.month %}
-      {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}
+
+    <!-- Capture and format the pages -->
+    {% if entry.pages %}
+      {% capture entrypages %}{{ entry.pages }}{% endcapture %}
     {% endif %}
-    {% if entry.year %}
-      {% capture entryyear %}{{ " " }}{{entry.year}}{% endcapture %}
-    {% endif %}
+
+    <!-- Capture and format the month and year -->
+    {% capture entrydate %}
+  {% if entry.month %}{{ entry.month | capitalize }} {% endif %}
+  {% if entry.year %}{{ entry.year }}{% endif %}
+{% endcapture %}
+
+    <!-- Combine entry type, pages, and date -->
     {% assign entrytype_text = entrytype | strip_html | strip %}
-    {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
+    {% capture periodical %}
+  {{ entrytype }}
+  {% if entry.pages %}, {{ entrypages }}{% endif %}
+  {% if entrydate != "" %}
+    ({% if entry.month %}{{ entry.month | capitalize }} {% endif %}{{ entry.year }})
+  {% endif %}
+{% endcapture %}
+
+    <!-- Output the formatted periodical and any additional note -->
     <div class="periodical">
       {{ periodical | strip }}
     </div>
