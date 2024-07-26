@@ -139,7 +139,7 @@
     {% if entry.type == 'article' %}
       {% capture entrytype %}
     <em>{{ entry.journal }}</em>
-    {% if entry.number %}<span style="font-weight: 400;">{{ entry.number }}</span>{% endif %} <!-- No space after entry.number -->
+    {% if entry.number %}<span style="font-weight: 400;">{{ entry.number }}</span>{% endif %}
   {% endcapture %}
     {% elsif proceedings contains entry.type %}
       {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
@@ -163,9 +163,10 @@
     <!-- Combine entry type, pages, and date -->
     {% assign entrytype_text = entrytype | strip_html | strip %}
     {% capture periodical %}
-  {{ entrytype | strip }}
-{% if entry.pages %}, {{ entrypages | strip }}{% endif %}
+  {{ entrytype -}}
+{% if entry.pages %}, {{ entrypages -}}{% endif %}
   {% if entrydate != "" %}
+    {{ ' ' }}
     ({% if entry.month %}{{ entry.month | capitalize }} {% endif %}{{ entry.year }})
   {% endif %}
 {% endcapture %}
