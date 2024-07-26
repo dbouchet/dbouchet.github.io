@@ -137,10 +137,10 @@
 
     <!-- Determine entry type and capture relevant bibliographic detail -->
     {% if entry.type == 'article' %}
-      {% capture entrytype -%}
+      {% capture entrytype %}
     <em>{{ entry.journal }}</em>
-    {% if entry.number %}<span style="font-weight: 400;">{{ entry.number }}</span>{% endif %}
-  {%- endcapture %}
+    {% if entry.number %}<span style="font-weight: 400;">{{ entry.number - }}</span>{% endif %}
+  {% endcapture %}
     {% elsif proceedings contains entry.type %}
       {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
     {% elsif thesis contains entry.type %}
