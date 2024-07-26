@@ -77,21 +77,21 @@
         {% endif %}
         {%- if author_is_self -%}
           <em>
-            {{- author.first }}
-            {{ author.last }}
-            <!-- Concatenated with space -->
+            {{ author.first | strip -}}
+            {{- ' ' -}}
+            {{- author.last | strip }}
           </em>
         {%- else -%}
           {%- if coauthor_url -%}
-            <a href="{{coauthor_url}}">
-              {{- author.first }}
-              {{ author.last }}
-              <!-- Concatenated with space -->
+            <a href="{{ coauthor_url }}">
+              {{ author.first | strip -}}
+              {{- ' ' -}}
+              {{- author.last | strip }}
             </a>
           {%- else -%}
-            {{- author.first }}
-            {{ author.last }}
-            <!-- Concatenated with space -->
+            {{ author.first | strip -}}
+            {{- ' ' -}}
+            {{- author.last | strip }}
           {% endif %}
         {%- endif -%}
       {% endfor %}
