@@ -161,7 +161,7 @@
 {% endcapture %}
 
     <!-- Combine entry type, pages, and date -->
-    {% assign entrytype_text = entrytype | strip_html | strip %}
+    {% assign entrytype_text = entrytype | strip_html %}
     {% capture periodical %}
   {{ entrytype }}
 {% if entry.pages %} {{','}} {{ entrypages }}{% endif %}
