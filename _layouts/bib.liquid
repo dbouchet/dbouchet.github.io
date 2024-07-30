@@ -150,12 +150,12 @@
 
     <!-- Capture and format the pages -->
     {% if entry.number %}
-    {% if entry.pages %}
-      {% capture entrypages %}
+      {% if entry.pages %}
+        {% capture entrypages %}
       <span style="font-weight: 400;">{{ entry.number }}</span>
 {{ entry.pages }}
       {% endcapture %}
-    {% endif %}
+      {% endif %}
     {% endif %}
 
     <!-- Capture and format the month and year -->
