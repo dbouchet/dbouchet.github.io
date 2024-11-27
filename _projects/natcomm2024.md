@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Listening to a resonating bubble
-complement: Nat. Commun. 15, 10275 (224)
+complement: Nat. Commun. 15, 10275 (2024)
 img: assets/img/highlights/natcommun2024.png
 importance: 992
 related_publications: true
