@@ -3,7 +3,7 @@ layout: page
 title: Optimal information about the invisible
 complement: Nat. Phys. 17, 564-568 (2021)
 img: assets/img/highlights/natphys2021.png
-importance: 4
+importance: 996
 related_publications: true
 ---
 
