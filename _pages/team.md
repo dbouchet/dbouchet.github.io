@@ -21,7 +21,7 @@ nav_order: 4
 <p align="justify"> 
 PhD student, co-directed with Prof. Emmanuel Bossy
 <br>
-<a href="mailto:alexis.chaduc@etu.univ-grenoble-alpes.fr">alexis.chaduc@etu.univ-grenoble-alpes.fr</a>
+
 </p>
 
     </div>
