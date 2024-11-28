@@ -3,7 +3,7 @@ layout: openings
 permalink: /openings/
 title: Openings
 nav: true
-nav_order: 5
+nav_order: 6
 intro: openings/spontaneous_applications.md
 profiles:
   - image: fisher_acoustics.png
