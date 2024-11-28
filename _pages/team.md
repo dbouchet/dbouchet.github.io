@@ -20,6 +20,7 @@ nav_order: 4
 
 <p align="justify"> 
 PhD student, co-directed with Prof. Emmanuel Bossy
+<a href="mailto:alexis.chaduc@etu.univ-grenoble-alpes.fr">alexis.chaduc@etu.univ-grenoble-alpes.fr</a>
 </p>
 
     </div>
@@ -38,7 +39,7 @@ PhD student, co-directed with Prof. Emmanuel Bossy
 
 <p align="justify"> 
 MSc student, Graduate School Soft Nano (Univ. Grenoble Alpes)
-alexis.chaduc@etu.univ-grenoble-alpes.fr
+<a href="mailto:alexis.chaduc@etu.univ-grenoble-alpes.fr">alexis.chaduc@etu.univ-grenoble-alpes.fr</a>
 
 </p>
 
