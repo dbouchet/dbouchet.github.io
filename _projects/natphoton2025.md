@@ -45,7 +45,7 @@ Such scenarios are especially important in biophysics and medical imaging. Indee
 </p>
 
 <p align="justify"> 
-The answer to this is provided by a theoretical measure: the so-called Fisher information. It describes how much information a noisy optical signal contains about an unknown parameter, such as the object position. If the Fisher information is low, a precise determination of the parameter value is not possible, no matter how sophisticatedly the signal is analyzed. Based on the Fisher information, the team was able to calculate an upper limit for the theoretically achievable precision in optical experiments.
+The answer to this is provided by a theoretical measure: the so-called Fisher information. It describes how much information a noisy optical signal contains about an unknown parameter, such as the object position. If the Fisher information is low, a precise determination of the parameter value is not possible, no matter how sophisticatedly the signal is analyzed. Based on the Fisher information, we were able to calculate an upper limit for the theoretically achievable precision in optical experiments.
 </p>
 
 <p align="justify">
@@ -55,7 +55,7 @@ Neural networks can learn from chaotic light patterns
 </p>
 
 <p align="justify"> 
-In a proof-of-principle experiment conducted by the team, a laser beam was directed at a small, reflective object. This object was located behind a turbid liquid, so that the recorded images only showed highly distorted light patterns. The measurement conditions varied depending on the turbidity: the larger the turbidity, the greater the difficulty of obtaining precise position information from the measured signal.
+In a proof-of-principle experiment that we conducted, a laser beam was directed at a small, reflective object. This object was located behind a turbid liquid, so that the recorded images only showed highly distorted light patterns. The measurement conditions varied depending on the turbidity: the larger the turbidity, the greater the difficulty of obtaining precise position information from the measured signal.
 </p>
 
 <p align="justify"> 
@@ -73,7 +73,7 @@ Particularly noteworthy: the precision of the network predictions was only sligh
 </p>
 
 <p align="justify"> 
-This realization has far-reaching consequences: with the help of intelligent algorithms, optical measurement methods could be significantly improved in a wide range of areas - from medical diagnostics to materials research and quantum technology. In future projects, the research team wants to work with partners from applied physics and medicine to investigate how these AI-supported methods can be used in specific systems.
+This realization has far-reaching consequences: with the help of intelligent algorithms, optical measurement methods could be significantly improved in a wide range of areas - from medical diagnostics to materials research and quantum technology. In future projects, we want to work with partners from applied physics and medicine to investigate how these AI-supported methods can be used in specific systems.
 </p>
 
 <p align="justify"> 
