@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Towards the ultimate limits of artificial neural networks
-complement: Nat. Photonics (2025)
+complement: Nat. Photonics 19, 593-600 (2025)
 img: assets/img/highlights/natphoton2025.png
 importance: 991
 related_publications: true
