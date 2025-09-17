@@ -16,7 +16,11 @@ nav_order: 2
       <div class="row justify-content-sm-center align-items-center">
         <div class="col-sm-8 mt-2">
           <p>
-            <b><a href="{{ project.url | relative_url }}">{{ project.title }}</a></b><br />
+            <b>
+              <span style="font-size: 1.1em;">
+                <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+              </span>
+            </b><br />
             {% if project.complement %}
               <small><span style="color:Gray;">{{ project.complement }}</span></small>
             {% endif %}
