@@ -13,9 +13,14 @@ nav_order: 2
 
     {% for project in sorted_projects %}
       <hr>
-      <div class="row justify-content-sm-center align-items-center">
+      <div class="row justify-content-sm-start align-items-start">
+        {% if project.img %}
+        <div class="col-sm-2 mt-2 text-center">
+          {% include figure.liquid path=project.img class="img-fluid rounded z-depth-1" width="150px" %}
+        </div>
+        {% endif %}
         <div class="col-sm-8 mt-2">
-          <p>
+          <p style="text-align: left;">
             <b>
               <span style="font-size: 1.1em;">
                 <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
@@ -26,11 +31,6 @@ nav_order: 2
             {% endif %}
           </p>
         </div>
-        {% if project.img %}
-        <div class="col-sm-4 mt-2 text-center">
-          {% include figure.liquid path=project.img class="img-fluid rounded z-depth-1" width="150px" %}
-        </div>
-        {% endif %}
       </div>
     {% endfor %}
 
