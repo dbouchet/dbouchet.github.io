@@ -24,10 +24,8 @@ nav_order: 2
           {% endif %}
         </div>
         <div class="col-sm-4 mt-3 mt-md-0">
-          {% if project.image %}
-            {% assign project_image_path = project.image | prepend: 'assets/img/projects/' %}
-            {% include figure.liquid path=project_image_path class="img-fluid rounded z-depth-1" %}
-          {% endif %}
+          {% assign project_image_path = project.basename | prepend: 'assets/img/highlights/' | append: '.png' %}
+          {% include figure.liquid path=project_image_path class="img-fluid rounded z-depth-1" %}
         </div>
       </div>
     {% endfor %}
