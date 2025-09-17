@@ -28,7 +28,7 @@ nav_order: 2
         </div>
         {% if project.img %}
         <div class="col-sm-4 mt-2 text-center">
-          {% include figure.liquid path=project.img class="img-fluid rounded z-depth-1" width="200px" %}
+          {% include figure.liquid path=project.img class="img-fluid rounded z-depth-1" width="150px" %}
         </div>
         {% endif %}
       </div>
