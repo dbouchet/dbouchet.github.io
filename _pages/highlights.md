@@ -6,24 +6,32 @@ nav: true
 nav_order: 2
 ---
 
-<!-- pages/highlights.md -->
-<div class="projects">
+<div class="post">
+  <article>
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+    {% assign sorted_projects = site.projects | sort: "importance" %}
 
-<div class="project-list">
-  {% for project in sorted_projects %}
-    <div class="project">
-      <h3>{{ project.title }}</h3>
-      {% if project.description %}
-        <p>{{ project.description }}</p>
-      {% endif %}
-      {% if project.url %}
-        <p><a href="{{ project.url }}">Learn more</a></p>
-      {% endif %}
-    </div>
-  {% endfor %}
-</div>
+    {% for project in sorted_projects %}
+      <hr>
+      <div class="row justify-content-sm-center">
+        <div class="col-sm-8 mt-3 mt-md-0">
+          <h3>{{ project.title }}</h3>
+          {% if project.description %}
+            <p>{{ project.description }}</p>
+          {% endif %}
+          {% if project.url %}
+            <p><a href="{{ project.url }}">Learn more</a></p>
+          {% endif %}
+        </div>
+        <div class="col-sm-4 mt-3 mt-md-0">
+          {% if project.image %}
+            {% assign project_image_path = project.image | prepend: 'assets/img/projects/' %}
+            {% include figure.liquid path=project_image_path class="img-fluid rounded z-depth-1" %}
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
 
+  </article>
 </div>
 
