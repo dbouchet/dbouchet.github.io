@@ -14,7 +14,7 @@ nav_order: 4
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/team/ettore_bertolini_square.jpg" title="profile picture" class="img-fluid rounded z-depth-1" %}
     </div>
-    
+
     <div class="col-sm-8 mt-3 mt-md-0">
     <h3>Ettore Bertolini</h3>
 
@@ -35,7 +35,7 @@ PhD student, co-directed with Prof. Emmanuel Bossy
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/team/alexis_chaduc_square.png" title="profile picture" class="img-fluid rounded z-depth-1" %}
     </div>
-    
+
     <div class="col-sm-8 mt-3 mt-md-0">
     <h3>Alexis Chaduc</h3>
 
